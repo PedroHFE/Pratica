@@ -3,7 +3,26 @@
 /* Todas as midias*/
 
 @media print{ /*Impresora*/
-    
+    body{
+        border: black solid 2px;
+        border-radius: 5px;
+        font-family: 'Courier New', Courier, monospace;
+        margin: 20px;
+        text-shadow: none;
+    }
+    h1{
+        text-shadow: none;
+    }
+    #cel{display: none}
+    #imp{display: block;}
+    #tab{display: none;}
+    #pc{display: none;}
+    #tv{display: none;}
+    body::after{
+        content: 'Esse é um conteúdo baseado no Curso HTML e CCS, do Curso em Video.';
+        text-decoration: overline;
+        margin: 5px;
+    }
 }
 
 
