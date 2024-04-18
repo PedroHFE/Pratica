@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../favicon_io/favicon-16x16.png" type="image/x-icon">
     <link rel="stylesheet" href="stylevi.css">
     <title>Verifacar Idade</title>
 </head>
@@ -12,14 +13,17 @@
     </header>
     <main>
         <section>
-            <label for="anonasc">Ano de Nascimento:<input type="date" name="anonasc" id="anonasc"></label> <br>
-            <label for="sexo">Sexo:</label>
-            <label for="sexom"><input type="radio" name="sexo" id="sexom" required>Masculino</label>
-            <label for="sexof"><input type="radio" name="sexo" id="sexof" required>Feminino</label> <br>
-            <input type="button" value="Verifacar" onclick="verificar()" id="bverificar">
+            <p>
+                <label for="anonasc">Ano de Nascimento:<input type="number" name="anonasc" id="anonasc" min="1850"></label></p> 
+            <p>
+                <label for="sexo">Sexo:</label>
+                <label for="sexom"><input type="radio" name="sexo" id="sexom" required checked>Masculino</label>
+                <label for="sexof"><input type="radio" name="sexo" id="sexof" required>Feminino</label>
+            </p>
+            <p><input type="button" value="Verifacar" onclick="verificar()" id="bverificar"></p>
             <div id="img">
-            <p>Você tem tantos anos...</p>
-            <img src="img/baby.png" alt="Foto de um bb" id="foto">
+            <p id="txt">Preencha os dados acima para ver o resultado!</p>
+            <img src="img/dados.png" alt="Foto de aviso, para colocar os dados" id="foto">
             </div>
         </section>
     </main>
