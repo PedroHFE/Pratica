@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylevi.css">
+    <title>Verifacar Idade</title>
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <main>
+        <section>
+            <label for="anonasc">Ano de Nascimento:<input type="date" name="anonasc" id="anonasc"></label> <br>
+            <label for="sexo">Sexo:</label>
+            <label for="sexom"><input type="radio" name="sexo" id="sexom" required>Masculino</label>
+            <label for="sexof"><input type="radio" name="sexo" id="sexof" required>Feminino</label> <br>
+            <input type="button" value="Verifacar" onclick="verificar()" id="bverificar">
+            <div id="img">
+            <p>Você tem tantos anos...</p>
+            <img src="img/baby.png" alt="Foto de um bb" id="foto">
+            </div>
+        </section>
+    </main>
+    <footer>&copy; Pedro Henrique</footer>
+    <script src="ex02.js"></script>
+</body>
+</html>
