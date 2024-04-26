@@ -25,7 +25,7 @@
                 <p><label for="tirar1">Subtração: <input type="number" name="tirar1" id="sub1"></label> 
                     - <label for="tirar2"> <input type="number" name="tirar2" id="sub2"></label></p>
                 <p><input type="submit" value="Subtrair" onclick="tirar()"> 
-                    <input type="reset" value="Limpar"></p>
+                    <input type="reset" value="Limpar" onclick="limparsub()"></p>
             <div id="restirar"></div>
         </section>
         <section>
@@ -33,15 +33,15 @@
                 <p><label for="multiplicar1">Multiplicação: <input type="number" name="multiplicar1" id="ml1"></label> 
                     x <label for="multiplicar2"> <input type="number" name="multiplicar2" id="ml2"></label></p>
                 <p><input type="submit" value="Multiplicar" onclick="multi()"> 
-                    <input type="reset" value="Limpar"></p>
+                    <input type="reset" value="Limpar" onclick="limparmt()"></p>
             <div id="resmulti"></div>
         </section>
         <section>
                 <h2>Divisão</h2>
-                <p><label for="dividir1"> <input type="number" name="dividir1" id="div1"></label> / 
+                <p><label for="dividir1">Divisão: <input type="number" name="dividir1" id="div1"></label> / 
                     <label for="dividir2"> <input type="number" name="dividir2" id="div2"></label></p>
                 <p><input type="submit" value="Dividir" onclick="dividir()"> 
-                    <input type="reset" value="Limpar"></p>
+                    <input type="reset" value="Limpar" onclick="limpardv()"></p>
             <div id="resdividir"></div>
         </section>
         <p id="tudo"><input type="submit" value="Calcular tudo" onclick="caltudo()"> 
