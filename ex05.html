@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon_io/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="styleop.css">
+    <title>Operações</title>
+</head>
+<body>
+    <header>
+        <h1>Operações básicas</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Adição</h2>
+                <p><label for="adicao1">Adição: <input type="number" name="adicao1" id="ad1"></label> 
+                    + <label for="adicao2"> <input type="number" name="adicao2" id="ad2"></label></p>
+                <p><input type="submit" value="Somar" onclick="soma()"> 
+                    <input type="reset" value="Limpar" onclick="limparad()"></p>
+            <div id="ressoma"></div>
+        </section >
+        <section>
+            <h2>Subtração</h2>
+                <p><label for="tirar1">Subtração: <input type="number" name="tirar1" id="sub1"></label> 
+                    - <label for="tirar2"> <input type="number" name="tirar2" id="sub2"></label></p>
+                <p><input type="submit" value="Subtrair" onclick="tirar()"> 
+                    <input type="reset" value="Limpar"></p>
+            <div id="restirar"></div>
+        </section>
+        <section>
+            <h2>Multiplicação</h2>
+                <p><label for="multiplicar1">Multiplicação: <input type="number" name="multiplicar1" id="ml1"></label> 
+                    x <label for="multiplicar2"> <input type="number" name="multiplicar2" id="ml2"></label></p>
+                <p><input type="submit" value="Multiplicar" onclick="multi()"> 
+                    <input type="reset" value="Limpar"></p>
+            <div id="resmulti"></div>
+        </section>
+        <section>
+                <h2>Divisão</h2>
+                <p><label for="dividir1"> <input type="number" name="dividir1" id="div1"></label> / 
+                    <label for="dividir2"> <input type="number" name="dividir2" id="div2"></label></p>
+                <p><input type="submit" value="Dividir" onclick="dividir()"> 
+                    <input type="reset" value="Limpar"></p>
+            <div id="resdividir"></div>
+        </section>
+        <p id="tudo"><input type="submit" value="Calcular tudo" onclick="caltudo()"> 
+            <input type="reset" value="Limpar tudo" onclick="limtudo()"></p>
+    </main>
+    <footer>&copy;Pedro Henrique</footer>
+    <script src="ex05.js"></script>
+</body>
+</html>
