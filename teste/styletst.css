@@ -30,6 +30,12 @@ a{
     margin: 30px;
     text-decoration: none;
 }
+img#oferta{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
 div#cs{
     display: flex;
     align-items: center;
@@ -54,6 +60,15 @@ div.ci{
 .on{
     opacity: 1;
     height: 250px;
+}
+.pag{
+    width: 490px;
+}
+#rs{
+    width: 400px;
+}
+.icon{
+    width: 150px;
 }
 
 button#ar , button#al{
@@ -90,6 +105,11 @@ h1{
 a{
     margin: 15px;
     text-decoration: none;
+}
+img#oferta{
+    display: block;
+    margin: auto;
+    width: 400px;
 }
 div#cs{
     display: flex;
@@ -184,11 +204,11 @@ button#ar img, button#al img{
     
     img#logo{
         display: inline;
-        height: 100px;
+        height: 95px;
     }
     h1{
         display: inline;
-        margin-left: 5vw;
+        margin-left: 2vw;
     }
     a{
         margin: 0px;
