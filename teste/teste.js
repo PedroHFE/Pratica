@@ -28,3 +28,35 @@ function voltar(){
 }
 next.addEventListener('click', avancar)
 prev.addEventListener('click', voltar)
+
+// carrosel 2
+const slide2 = document.getElementsByClassName('img2')
+const prev2 = document.querySelector('button#al2')
+const next2 = document.querySelector('button#ar2')
+let imgon2 = 1
+function slideoff2(){
+    slide2[imgon2].classList.remove('on2')
+}
+function slideon2(){
+    slide2[imgon2].classList.add("on2")
+}
+function avancar2(){
+    slideoff2()
+    if(imgon2 === slide2.length -1){
+        imgon2 = 0
+    } else{
+        imgon2++
+    }
+    slideon2()
+}
+function voltar2(){
+    slideoff2()
+    if(imgon2 === 0){
+        imgon2 = slide2.length -1
+    } else{
+        imgon2--
+    }
+    slideon2()
+}
+next2.addEventListener('click', avancar2)
+prev2.addEventListener('click', voltar2)

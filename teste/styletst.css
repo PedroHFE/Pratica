@@ -30,26 +30,35 @@ a{
     margin: 30px;
     text-decoration: none;
 }
+h2{
+    text-align: center;
+    background-image: linear-gradient(50deg, rgba(0, 17, 252, 0.596), rgba(255, 136, 0, 0.596));
+    color: rgb(253, 249, 249);
+}
+h3, p{
+    text-align: center;
+}
 img#oferta{
     display: block;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 5px;
+    width: 70vw;
 }
-div#cs{
+div#cs, div#cs2{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 300px;
 }
-div.ci{
+div.ci, div.ci2{
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 350px;
 }
-.img{
+.img, .img2{
     position: absolute;
     width: 100%;
     border-radius: 10px;
@@ -57,21 +66,39 @@ div.ci{
     transition: opacity 0.2s;
     height: 200px;
 }
-.on{
+.on, .on2{
     opacity: 1;
     height: 250px;
 }
-.pag{
-    width: 490px;
+h4{
+    color: rgb(209, 2, 2);
+    text-align: center;
 }
-#rs{
-    width: 400px;
+#pag{
+    width: 90vw;
+    display: block;
+    margin: auto;
 }
-.icon{
-    width: 150px;
+#links{
+    text-align: center;
 }
-
-button#ar , button#al{
+#face{
+    width: 51px;
+    border-radius: 10px;
+}
+#insta{
+    width: 53.5px;
+    border-radius: 10px;
+}
+#whats{
+    width: 51.3px;
+    border-radius: 10px;
+}
+#gmail{
+    height: 57px;
+    border-radius: 10px;
+}
+button#ar , button#al, button#ar2 , button#al2{
     margin: 20px;
     width: 30px;
     height: 30px;
@@ -79,7 +106,7 @@ button#ar , button#al{
     background-color: transparent;
     cursor: pointer;
 }
-button#ar img, button#al img{
+button#ar img, button#al img, button#ar2 img, button#al2 img{
     width: 100%;
     height: 100%;
 }
@@ -106,37 +133,73 @@ a{
     margin: 15px;
     text-decoration: none;
 }
+h2{
+    text-align: center;
+    background-image: linear-gradient(50deg, rgba(0, 17, 252, 0.596), rgba(255, 136, 0, 0.596));
+    color: rgb(253, 249, 249);
+}
+h3, p{
+    text-align: center;
+}
 img#oferta{
     display: block;
     margin: auto;
-    width: 400px;
+    width: 70vw;
 }
-div#cs{
+div#cs, div#cs2{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 300px;
 }
-div.ci{
+div.ci, div.ci2{
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 350px;
 }
-.img{
+.img, .img2{
     position: absolute;
     width: 100%;
     border-radius: 10px;
     opacity: 0.1;
     transition: opacity 0.2s;
-    height: 190px;
+    height: 200px;
 }
-.on{
+.on, .on2{
     opacity: 1;
-    height: 230px;
+    height: 250px;
 }
-button#ar , button#al{
+h4{
+    color: rgb(209, 2, 2);
+    text-align: center;
+}
+#pag{
+    width: 90vw;
+    display: block;
+    margin: auto;
+}
+#links{
+    text-align: center;
+}
+#face{
+    width: 51px;
+    border-radius: 10px;
+}
+#insta{
+    width: 53.5px;
+    border-radius: 10px;
+}
+#whats{
+    width: 51.3px;
+    border-radius: 10px;
+}
+#gmail{
+    height: 57px;
+    border-radius: 10px;
+}
+button#ar , button#al, button#ar2 , button#al2{
     margin: 20px;
     width: 30px;
     height: 30px;
@@ -144,11 +207,10 @@ button#ar , button#al{
     background-color: transparent;
     cursor: pointer;
 }
-button#ar img, button#al img{
+button#ar img, button#al img, button#ar2 img, button#al2 img{
     width: 100%;
     height: 100%;
-}
-}
+}}
 @media screen and (max-width:750px){
     
     img#logo{
@@ -162,20 +224,20 @@ button#ar img, button#al img{
         margin: 10px;
         text-decoration: none;
     }
-    div#cs{
+    div#cs, div#cs2{
         display: flex;
         align-items: center;
         justify-content: center;
         height: 200px;
     }
-    div.ci{
+    div.ci, div.ci2{
         position: relative;
         display: flex;
         align-items: center;
         justify-content: center;
         width: 250px;
     }
-    .img{
+    .img, .img2{
         position: absolute;
         width: 100%;
         border-radius: 10px;
@@ -183,21 +245,17 @@ button#ar img, button#al img{
         transition: opacity 0.2s;
         height: 100px;
     }
-    .on{
+    .on, .on2{
         opacity: 1;
         height: 150px;
     }
-    button#ar , button#al{
+    button#ar , button#al, button#ar2 , button#al2{
         margin: 20px;
         width: 30px;
         height: 30px;
         border: none;
         background-color: transparent;
         cursor: pointer;
-    }
-    button#ar img, button#al img{
-        width: 100%;
-        height: 100%;
     }
 }
 @media screen and (max-width:650px){
@@ -214,23 +272,23 @@ button#ar img, button#al img{
         margin: 0px;
         text-decoration: none;
     }
-    div#cs{
+    div#cs, div#cs2{
         display: flex;
         align-items: center;
         justify-content: center;
         height: 300px;
     }
-    div.ci{
+    div.ci, div.ci2{
         position: absolute;
         display: flex;
         align-items: center;
         justify-content: center;
         width: 350px;
     }
-    .img{
+    .img, .img2{
         display: none;
     }
-    .on{
+    .on, .on2{
         opacity: 1;
         height: 200px;
         display: block;
@@ -240,7 +298,7 @@ button#ar img, button#al img{
         width: 250px;
         align-items: center;
     }
-    button#ar {
+    button#ar, button#ar2 {
         margin: 20px;
         width: 30px;
         height: 30px;
@@ -250,7 +308,7 @@ button#ar img, button#al img{
         position: relative;
         transform: translate(160px, -10px);
     }
-    button#al {
+    button#al, button#al2{
         margin: 20px;
         width: 30px;
         height: 30px;
