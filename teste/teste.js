@@ -1,3 +1,14 @@
+function clickMain(){
+    if(itens.style.display == 'block'){
+        itens.style.display = 'none'
+        x.style.display = 'none'
+        main.style.display = 'block'
+    } else {
+        itens.style.display = 'block'
+        x.style.display = 'block'
+        main.style.display = 'none'
+    }
+}
 const slide = document.querySelectorAll('img.img')
 const prev = document.querySelector('button#al')
 const next = document.querySelector('button#ar')
