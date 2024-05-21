@@ -1,0 +1,181 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+@media screen and (min-width:901px) {
+    img#logo{
+    display: inline;
+    width: 150px;
+    margin: 0px;
+    padding: 0px;
+    }
+    h2{
+        margin: 2px;
+    }
+    .cont{
+        text-align: center;
+    }
+    img{
+        height: 250px;
+        width: 250px;
+        margin: 5px;
+    }
+    p{
+        border: 1px solid rgb(180, 178, 178);
+        border-radius: 2px;
+        display: inline-block;
+        text-align: center;
+        height: 320px;
+        width: 260px;
+        margin: 10px;
+        padding: 5px;
+    }
+    #mvm1, #mvm2, #mvm3, #fvm1, #fvm2, #fvm3{
+        display: none;
+    }
+    #ivm1, #ivm2, #ivm3, #uvm1, #uvm2, #uvm3{
+        display: none;
+    }
+    #bmvm2, #bmvm3, #bfvm2, #bfvm3{
+        display: none;
+    }
+    #bivm2, #bivm3, #buvm2, #buvm3{
+        display: none;
+    }
+    #btopo{
+        font-size: 7vh;
+        width: 23px;
+        text-decoration: none;
+        color: rgb(255, 115, 0);;
+    }
+    #botaotopo{
+        background-color: transparent;
+        width: 30px;
+        height: 30px;
+        padding: 8px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        right: 30px;
+        bottom: 30px;
+        text-decoration: none;
+    }
+    #btopo:hover{
+        padding-right: 5px;
+        text-decoration: none;
+        color: rgba(0, 17, 252, 0.596);
+        border-radius: 50%;
+    }
+}
+@media screen and (max-width:900px){
+    img#logo{
+        display: inline;
+        width: 140px;
+        margin: 0px;
+        padding: 0px;
+    }
+    h2{
+        margin: 2px;
+    }
+    .cont{
+        margin: auto;
+        display: ruby;
+    }
+    img{
+        height: 235px;
+        width: 235px;
+        margin: 5px;
+    }
+    p{
+        border: 1px solid rgb(180, 178, 178);
+        border-radius: 2px;
+        display: inline-block;
+        text-align: center;
+        height: 320px;
+        width: 260px;
+        margin: 10px;
+        padding: 5px;
+    }
+    @keyframes desaparecer {
+        from{
+            opacity: 0.5;
+        }
+        to{
+            opacity: 1s;
+        }
+    }
+    #vm2, #vm3{
+        display: none;
+    }
+    #btopo{
+        font-size: 7vh;
+        width: 23px;
+        text-decoration: none;
+        color: rgb(255, 115, 0);
+    }
+    #botaotopo{
+        background-color: transparent;
+        width: 30px;
+        height: 30px;
+        padding: 8px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        right: 30px;
+        bottom: 30px;
+        text-decoration: none;
+    }
+    #btopo:hover{
+        padding-right: 5px;
+        text-decoration: none;
+        color: rgba(0, 17, 252, 0.596);
+        border-radius: 50%;
+    }
+}
+@media screen and (max-width:750px){
+    img#logo{
+        display: inline;
+        width: 100px;
+        margin: 0px;
+        padding: 0px;
+    }
+    h2{
+        margin: 2px;
+    }
+    .cont{
+        margin: auto;
+        display: ruby;
+    }
+    img{
+        height: 215px;
+        width: 215px;
+        margin: 5px;
+    }
+    p{
+        border: 1px solid rgb(180, 178, 178);
+        border-radius: 2px;
+        display: inline-block;
+        text-align: center;
+        height: 320px;
+        width: 260px;
+        margin: 10px;
+        padding: 5px;
+    }
+    @keyframes desaparecer {
+        from{
+            opacity: 0.5;
+        }
+        to{
+            opacity: 1s;
+        }
+    }
+    #vm1, #vm2, #vm3{
+        display: none;
+    }
+}

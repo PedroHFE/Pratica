@@ -189,6 +189,18 @@ header{
     color: #1ff802;
     border-radius: 5px;
 }
+.fade{
+    animation-name: desaparecer;
+    animation-duration: 1.5s;
+}
+@keyframes desaparecer {
+    from{
+        opacity: 0.5;
+    }
+    to{
+        opacity: 1s;
+    }
+}
 nav{
     background-color: #5B567A;
     text-align: center;

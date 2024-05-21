@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../favicon_io/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="stylehomepage.css">
+    <link rel="stylesheet" href="styleprodutos.css">
+    <link rel="stylesheet" 
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
+    <title>Document</title>
+</head>
+<body>
+    <header id="topo">
+        <a href="indextst.html" target="_self" rel="prev"><img src="sua logo aqui.jpg" id="logo" alt="Logo do cliente"></a>
+        <h1>Nome da sua marca</h1>
+            <span class="material-symbols-outlined fade" id="main" onclick="clickMain()">menu</span>
+            <span class="material-symbols-outlined fade" id="x" onclick="clickMain()">close</span>
+        <nav id="itens">
+            <a href="indextst.html" class="mi" target="_self" rel="prev">Home</a> 
+            <a href="#masculino" class="mi" target="_parent" rel="next">Masculino</a> 
+            <a href="#feminino" class="mi" target="_parent" rel="next">Feminino</a> 
+            <a href="#infantil" class="mi" target="_parent" rel="next">Infantil</a>
+            <a href="#unissex" class="mi" target="_parent" rel="next">Unissex</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Mais populares</h2>
+            <div id="cs">
+                <button id="al"><img src="arrowLeft.png" alt="flecha para voltar"></button>
+                <div class="ci">
+                    <img src="../imagens/back-phone.jpg" class="img" alt="Foto do seu produto">
+                </div>
+                <div class="ci">
+                    <img src="seu produto.png" class="img on" alt="Foto do seu produto">
+                </div>
+                <div class="ci">
+                    <img src="../imagens/icon-pc.png" class="img" alt="Foto do seu produto">
+                </div>
+                <button id="ar"><img src="arrowRigth.png" alt="flecha para proximo"></button>
+            </div>
+        </section>
+        <section id="masculino">
+            <h2>Masculino</h2>
+            <div class="cont">
+                <div>
+                    <p><img src="seu produto.png" class="masc" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações caso precisar <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="masc" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="masc" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="masc" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="masc" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="masc" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                </div>
+                <input type="button" value="Ver mais" id="bmvm1" onclick="vermaisM()">
+                <div id="mvm1">
+                    <p><img src="seu produto.png" class="masc" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="masc" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="masc" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="masc" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="masc" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="masc" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                    R$ XXX,XX</p>
+                </div>
+                <input type="button" value="Ver mais" id="bmvm2" onclick="vermaisM()">
+                <div id="mvm2">
+                    <p><img src="seu produto.png" class="masc" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="masc" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="masc" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                </div>
+                <input type="button" value="Ver mais" id="bmvm3" onclick="vermaisM()">
+                <div id="mvm3">
+                    <p><img src="seu produto.png" class="masc" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="masc" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="masc" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                </div>
+            </div>
+        </section>
+        <section id="feminino">
+            <h2>Feminino</h2>
+            <div class="cont">
+                <div>
+                    <p><img src="seu produto.png" class="fem" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="fem" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="fem" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="fem" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="fem" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="fem" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                </div>
+                <input type="button" value="Ver mais" id="bfvm1" onclick="vermaisF()">
+                <div id="fvm1">
+                    <p><img src="seu produto.png" class="fem" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="fem" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="fem" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="fem" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="fem" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="fem" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                </div>
+                <input type="button" value="Ver mais" id="bfvm2" onclick="vermaisF()">
+                <div id="fvm2">
+                    <p><img src="seu produto.png" class="fem" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                            R$ XXX,XX</p>
+                        <p><img src="seu produto.png" class="fem" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                            R$ XXX,XX</p>
+                        <p><img src="seu produto.png" class="fem" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                            R$ XXX,XX</p>
+                </div>
+                <input type="button" value="Ver mais" id="bfvm3" onclick="vermaisF()">
+                <div id="fvm3">
+                    <p><img src="seu produto.png" class="fem" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                            R$ XXX,XX</p>
+                        <p><img src="seu produto.png" class="fem" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                            R$ XXX,XX</p>
+                        <p><img src="seu produto.png" class="fem" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                            R$ XXX,XX</p>
+                </div>
+            </div>
+        </section>
+        <section id="infantil">
+            <h2>Infantil</h2>
+            <div class="cont">
+                <div>
+                    <p><img src="seu produto.png" class="inf" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="inf" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="inf" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="inf" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="inf" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="inf" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                </div>
+                <input type="button" value="Ver mais" id="bivm1" onclick="vermaisI()">
+                <div id="ivm1">
+                    <p><img src="seu produto.png" class="inf" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="inf" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="inf" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="inf" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="inf" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="inf" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                </div>
+                <input type="button" value="Ver mais" id="bivm2" onclick="vermaisI()">
+                <div id="ivm2">
+                    <p><img src="seu produto.png" class="inf" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                            R$ XXX,XX</p>
+                        <p><img src="seu produto.png" class="inf" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                            R$ XXX,XX</p>
+                        <p><img src="seu produto.png" class="inf" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                            R$ XXX,XX</p>
+                </div>
+                <input type="button" value="Ver mais" id="bivm3" onclick="vermaisI()">
+                <div id="ivm3">
+                    <p><img src="seu produto.png" class="inf" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                            R$ XXX,XX</p>
+                        <p><img src="seu produto.png" class="inf" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                            R$ XXX,XX</p>
+                        <p><img src="seu produto.png" class="inf" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                            R$ XXX,XX</p>
+                </div>
+            </div>
+        </section>
+        <section id="unissex">
+            <h2>Unissex</h2>
+            <div class="cont">
+                <div>
+                    <p><img src="seu produto.png" class="uni" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="uni" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="uni" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="uni" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="uni" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="uni" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                </div>
+                <input type="button" value="Ver mais" id="buvm1" onclick="vermaisU()">
+                <div id="uvm1">
+                    <p><img src="seu produto.png" class="uni" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="uni" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="uni" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="uni" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="uni" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                    <p><img src="seu produto.png" class="uni" alt="Foto do seu produto"> <br>
+                    Descrição do produto mais e outras informações <br>
+                        R$ XXX,XX</p>
+                </div>
+                <input type="button" value="Ver mais" id="buvm2" onclick="vermaisU()">
+                <div id="uvm2">
+                    <p><img src="seu produto.png" class="uni" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                            R$ XXX,XX</p>
+                        <p><img src="seu produto.png" class="uni" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                            R$ XXX,XX</p>
+                        <p><img src="seu produto.png" class="uni" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                            R$ XXX,XX</p>
+                </div>
+                <input type="button" value="Ver mais" id="buvm3" onclick="vermaisU()">
+                <div id="uvm3">
+                    <p><img src="seu produto.png" class="uni" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                            R$ XXX,XX</p>
+                        <p><img src="seu produto.png" class="uni" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                            R$ XXX,XX</p>
+                        <p><img src="seu produto.png" class="uni" alt="Foto do seu produto"> <br>
+                        Descrição do produto mais e outras informações <br>
+                            R$ XXX,XX</p>
+                </div>
+            </div>
+        </section>
+        <p id="botaotopo"><a href="#topo" target="_parent" id="btopo">&#8682;</a></p>
+    </main>
+    <footer>Todos os diretitos reservados ao Desenvolvedor <strong>Pedro Henrique</strong> &copy;</footer>
+    <script src="teste.js"></script>
+    <script src="button.js"></script>
+</body>
+</html>
