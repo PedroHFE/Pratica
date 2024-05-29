@@ -1,60 +1,60 @@
-//Botões da sessão Masculina
-function masculino1(vmm1){
-    document.getElementById(vmm1).style.display = 'block';
-    document.querySelector('button#bmvm1').style.display = 'none';
-    document.querySelector('button#bmvm2').style.display = 'block';
+//Botões da sessão Ray-Ban
+function rayban1(rb1){
+    document.getElementById(rb1).style.display = 'block';
+    document.querySelector('button#brb1').style.display = 'none';
+    document.querySelector('button#brb2').style.display = 'block';
 }
-function masculino2(vmm2){
-    document.getElementById(vmm2).style.display = 'block';
-    document.querySelector('button#bmvm2').style.display = 'none';
-    document.querySelector('button#bmvm3').style.display = 'block';
+function rayban2(rb2){
+    document.getElementById(rb2).style.display = 'block';
+    document.querySelector('button#brb2').style.display = 'none';
+    document.querySelector('button#brb3').style.display = 'block';
 }
-function masculino3(vmm3){
-    document.getElementById(vmm3).style.display = 'block';
-    document.querySelector('button#bmvm3').style.display = 'none'
+function rayban3(rb3){
+    document.getElementById(rb3).style.display = 'block';
+    document.querySelector('button#brb3').style.display = 'none'
 }
-//Botões da sessão Feminina
-function feminino1(vmf1){
-    document.getElementById(vmf1).style.display = 'block';
-    document.querySelector('button#bfvm1').style.display = 'none';
-    document.querySelector('button#bfvm2').style.display = 'block';
+//Botões da sessão Dolce Gabana
+function dolcegabana1(dolce1){
+    document.getElementById(dolce1).style.display = 'block';
+    document.querySelector('button#bdg1').style.display = 'none';
+    document.querySelector('button#bdg2').style.display = 'block';
 }
-function feminino2(vmf2){
-    document.getElementById(vmf2).style.display = 'block';
-    document.querySelector('button#bfvm2').style.display = 'none';
-    document.querySelector('button#bfvm3').style.display = 'block';
+function dolcegabana2(dolce2){
+    document.getElementById(dolce2).style.display = 'block';
+    document.querySelector('button#bdg2').style.display = 'none';
+    document.querySelector('button#bdg3').style.display = 'block';
 }
-function feminino3(vmf3){
-    document.getElementById(vmf3).style.display = 'block';
-    document.querySelector('button#bfvm3').style.display = 'none';
+function dolcegabana3(dolce3){
+    document.getElementById(dolce3).style.display = 'block';
+    document.querySelector('button#bdg3').style.display = 'none';
 }
-//Botões da sessão Infantil
-function infantil1(vmi1){
-    document.getElementById(vmi1).style.display = 'block';
-    document.querySelector('button#bivm1').style.display = 'none';
-    document.querySelector('button#bivm2').style.display = 'block';
+//Botões da sessão Ockley
+function ockley1(oc1){
+    document.getElementById(oc1).style.display = 'block';
+    document.querySelector('button#boc1').style.display = 'none';
+    document.querySelector('button#boc2').style.display = 'block';
 }
-function infantil2(vmi2){
-    document.getElementById(vmi2).style.display = 'block';
-    document.querySelector('button#bivm2').style.display = 'none';
-    document.querySelector('button#bivm3').style.display = 'block';
+function ockley2(oc2){
+    document.getElementById(oc2).style.display = 'block';
+    document.querySelector('button#boc2').style.display = 'none';
+    document.querySelector('button#boc3').style.display = 'block';
 }
-function infantil3(vmi3){
-    document.getElementById(vmi3).style.display = 'block';
-    document.querySelector('button#bivm3').style.display = 'none';
+function ockley3(oc3){
+    document.getElementById(oc3).style.display = 'block';
+    document.querySelector('button#boc3').style.display = 'none';
 }
-//Botões da sessão Unissex
-function unissex1(vmu1){
-    document.getElementById(vmu1).style.display = 'block';
-    document.querySelector('button#buvm1').style.display = 'none';
-    document.querySelector('button#buvm2').style.display = 'block';
+//Botões da sessão Gucci
+function gucci1(gu1){
+    document.getElementById(gu1).style.display = 'block';
+    document.querySelector('button#bgc1').style.display = 'none';
+    document.querySelector('button#bgc2').style.display = 'block';
 }
-function unissex2(vmu2){
-    document.getElementById(vmu2).style.display = 'block';
-    document.querySelector('button#buvm2').style.display = 'none';
-    document.querySelector('button#buvm3').style.display = 'block';
+function gucci2(gu2){
+    document.getElementById(gu2).style.display = 'block';
+    document.querySelector('button#bgc2').style.display = 'none';
+    document.querySelector('button#bgc3').style.display = 'block';
 }
-function unissex3(vmu3){
-    document.getElementById(vmu3).style.display = 'block';
-    document.querySelector('button#buvm3').style.display = 'none';
+function gucci3(gu3){
+    document.getElementById(gu3).style.display = 'block';
+    document.querySelector('button#bgc3').style.display = 'none';
 }
