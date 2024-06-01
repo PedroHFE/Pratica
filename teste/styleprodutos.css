@@ -6,11 +6,26 @@
 }
 /*Telas grandes*/
 @media screen and (min-width:901px) {
+    header{
+        position: sticky;
+        top: 0;
+        margin-bottom: 10px;
+        background-color: rgba(0, 17, 252, 0.644);
+        border-radius: 5px;
+        box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.39);
+    }
     img#logo{
-    display: inline;
-    width: 150px;
-    margin: 0px;
-    padding: 0px;
+        display: inline;
+        height: 60px;
+        width: 60px;
+        margin: 3px 0px;
+        padding: 0px;
+        border-radius: 5px;
+        }
+    h1{
+        display: inline;
+        margin: 0px;
+        color: white;
     }
     h2{
         margin: 2px;
@@ -28,10 +43,23 @@
         border-radius: 2px;
         display: inline-block;
         text-align: center;
-        height: 320px;
+        height: 330px;
         width: 260px;
         margin: 10px;
         padding: 5px;
+        box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.26);
+    }
+    .bac{
+        margin-top: 5px;
+        margin-left: 1px;
+        padding: 1px;
+        border-radius: 5px;
+        background-color: #d70101;
+        color: white;
+        cursor: pointer;
+    }
+    :hover.bac{
+        background-color: rgb(151, 0, 0);
     }
     #mvm1, #mvm2, #mvm3, #fvm1, #fvm2, #fvm3{
         display: none;
@@ -41,13 +69,22 @@
         display: none;
         margin: auto;
     }
+    #bmvm1, #bfvm1, #bivm1, #buvm1{
+        cursor: pointer;
+        margin: 5px;
+        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.26);
+    }
     #bmvm2, #bmvm3, #bfvm2, #bfvm3{
         display: none;
         margin: auto;
+        cursor: pointer;
+        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.26);
     }
     #bivm2, #bivm3, #buvm2, #buvm3{
         display: none;
         margin: auto;
+        cursor: pointer;
+        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.26);
     }
     #btopo{
         font-size: 7vh;
@@ -68,6 +105,8 @@
         right: 30px;
         bottom: 30px;
         text-decoration: none;
+        border: none;
+        box-shadow: none;
     }
     #btopo:hover{
         padding-right: 5px;
@@ -78,11 +117,32 @@
 }
 /*Telas médias*/
 @media screen and (max-width:900px){
+    header{
+        position: sticky;
+        top: 0;
+        margin-bottom: 10px;
+        background-color: rgba(0, 17, 252, 0.644);
+        border-radius: 5px;
+        box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.39);
+    }
     img#logo{
         display: inline;
-        width: 140px;
-        margin: 0px;
+        height: 60px;
+        width: 60px;
+        margin: 3px 0px;
         padding: 0px;
+        border-radius: 5px;
+    }
+    span{
+        width: 100px;
+        top: 60%;
+        right: 0%;
+        position: absolute;
+    }
+    h1{
+        display: inline;
+        margin: 0px;
+        color: white;
     }
     h2{
         margin: 2px;
@@ -91,8 +151,8 @@
         text-align: center;
     }
     img{
-        height: 235px;
-        width: 235px;
+        height: 320px;
+        width: 320px;
         margin: 5px;
     }
     p{
@@ -100,10 +160,23 @@
         border-radius: 2px;
         display: inline-block;
         text-align: center;
-        height: 320px;
-        width: 260px;
+        height: 400px;
+        width: 330px;
         margin: 10px;
         padding: 5px;
+        box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.26);
+    }
+    .bac{
+        margin-top: 5px;
+        margin-left: 1px;
+        padding: 1px;
+        border-radius: 5px;
+        background-color: #d70101;
+        color: white;
+        cursor: pointer;
+    }
+    :hover.bac{
+        background-color: rgb(151, 0, 0);
     }
     @keyframes desaparecer {
         from{
@@ -121,13 +194,21 @@
         display: none;
         margin: auto;
     }
+    #bmvm1, #bfvm1, #bivm1, #buvm1{
+        cursor: pointer;
+        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.26);
+    }
     #bmvm2, #bmvm3, #bfvm2, #bfvm3{
         display: none;
         margin: auto;
+        cursor: pointer;
+        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.26);
     }
     #bivm2, #bivm3, #buvm2, #buvm3{
         display: none;
         margin: auto;
+        cursor: pointer;
+        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.26);
     }
     #vm2, #vm3{
         display: none;
@@ -151,6 +232,8 @@
         right: 30px;
         bottom: 30px;
         text-decoration: none;
+        border: none;
+        box-shadow: none;
     }
     #btopo:hover{
         padding-right: 5px;
@@ -160,12 +243,16 @@
     }
 }
 /*Telas pequenas*/
-@media screen and (max-width:750px){
+@media screen and (max-width:740px){
     img#logo{
-        display: inline;
-        width: 100px;
-        margin: 0px;
-        padding: 0px;
+        margin-left: 4px;
+    }
+    span{
+        width: 100vw;
+        position: relative;
+    }
+    h1{
+        margin-left: 6px;
     }
     h2{
         margin: 2px;
@@ -174,19 +261,32 @@
         text-align: center;
     }
     img{
-        height: 215px;
-        width: 215px;
-        margin: 5px;
+        height: 300px;
+        width: 300px;
+        margin: 4px;
     }
     p{
         border: 1px solid rgb(180, 178, 178);
         border-radius: 2px;
         display: inline-block;
         text-align: center;
-        height: 320px;
-        width: 260px;
+        height: 380px;
+        width: 320px;
         margin: 10px;
         padding: 5px;
+        box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.26);
+    }
+    .bac{
+        margin-top: 5px;
+        margin-left: 3px;
+        padding: 1px;
+        border-radius: 5px;
+        background-color: #d70101;
+        color: white;
+        cursor: pointer;
+    }
+    :hover.bac{
+        background-color: rgb(151, 0, 0);
     }
     @keyframes desaparecer {
         from{
@@ -207,12 +307,18 @@
         display: none;
         margin: auto;
     }
+    #bmvm1, #bfvm1, #bivm1, #buvm1{
+        cursor: pointer;
+        margin-bottom: 2px;
+    }
     #bmvm2, #bmvm3, #bfvm2, #bfvm3{
         display: none;
         margin: auto;
+        cursor: pointer;
     }
     #bivm2, #bivm3, #buvm2, #buvm3{
         display: none;
         margin: auto;
+        cursor: pointer;
     }
 }

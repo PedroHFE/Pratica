@@ -8,10 +8,13 @@ body{
     margin: auto;
 }
 header{
-    background-color: rgba(128, 128, 128, 0.301);
+    margin-bottom: 10px;
+    background-color: rgba(0, 17, 252, 0.644);
+    border-radius: 5px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.39);
 }
 #main{
-    background-color: blue;
+    background-color: rgba(0, 17, 252, 0);
     color: rgb(255, 123, 0);
     display: block;
     text-align: center;
@@ -20,13 +23,12 @@ header{
     border-radius: 5px;
 }
 #main:hover{
-    background-color: rgb(117, 154, 255);
     color: rgb(37, 252, 55);
     border-radius: 5px;
 }
 #x{
-    background-color: orange;
-    color: blue;
+    background-color: rgba(0, 17, 252, 0);
+    color: orange;
     display: block;
     text-align: center;
     display: none;
@@ -34,12 +36,11 @@ header{
     border-radius: 5px;
 }
 #x:hover{
-    background-color: rgb(66, 215, 241);
     color: #1ff802;
     border-radius: 5px;
 }
 nav{
-    background-color: #5B567A;
+    background-color: rgba(0, 17, 252, 0);
     text-align: center;
     font-size: 1.3em;
     margin: 0px 5px;
@@ -49,12 +50,15 @@ nav{
 img#logo{
     display: inline;
     height: 150px;
+    border-radius: 5px;
+    margin-top: 5px;
 }
 h1{
     display: inline;
     margin-left: 20vw;
     font-size: 2em;
     margin-bottom: 5px;
+    color: white;
 }
 a{
     margin: 30px;
@@ -62,8 +66,8 @@ a{
     color: white;
 }
 .mi:hover{
-    background-color: rgb(101, 248, 93);
-    color: #5B567A;
+    background-color: rgb(2, 20, 1);
+    color: orange;
     padding: 8px;
     border-radius: 5px;
     font-size: 1.1em;
@@ -159,10 +163,23 @@ footer{
 }
 @media screen and (max-width:900px){
 header{
-    background-color: rgba(128, 128, 128, 0.301);
+    background-color: rgba(0, 17, 252, 0.644);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.39);
+    position: sticky;
+}
+span{
+    width: 100px;
+    top: 78%;
+    right: 0%;
+    position: absolute;
+}
+#x{
+    top: 65%;
 }
 #main{
-    background-color: blue;
+    background-color: rgba(0, 17, 252, 0);
     color: orange;
     display: block;
     text-align: center;
@@ -171,13 +188,12 @@ header{
     border-radius: 5px;
 }
 #main:hover{
-    background-color: rgb(117, 154, 255);
     color: rgb(37, 252, 55);
     border-radius: 5px;
 }
 #x{
-    background-color: orange;
-    color: blue;
+    background-color: rgba(0, 17, 252, 0);
+    color: orange;
     display: block;
     text-align: center;
     display: none;
@@ -185,7 +201,6 @@ header{
     border-radius: 5px;
 }
 #x:hover{
-    background-color: rgb(66, 215, 241);
     color: #1ff802;
     border-radius: 5px;
 }
@@ -202,7 +217,7 @@ header{
     }
 }
 nav{
-    background-color: #5B567A;
+    background-color: rgba(0, 17, 252, 0);
     text-align: center;
     font-size: 1.1em;
     margin: 5px;
@@ -214,10 +229,14 @@ nav{
 img#logo{
     display: inline;
     height: 130px;
+    margin: 3px 0px 0px 5px;
+    border-radius: 5px;
 }
 h1{
     display: inline;
     margin-left: 10vw;
+    color: white;
+    margin-left: 7px;
 }
 a{
     margin: 15px;
@@ -225,8 +244,8 @@ a{
     color: rgb(255, 255, 255);
 }
 .mi:hover{
-    background-color: rgb(101, 248, 93);
-    color: #5B567A;
+    background-color: rgba(0, 0, 0, 0.836);
+    color: orange;
     padding: 5px;
     font-size: 1.1em;
     border-radius: 15px;
@@ -321,7 +340,6 @@ footer{
 }
 }
 @media screen and (max-width:750px){
-    
     img#logo{
         display: inline;
         height: 120px;
@@ -368,10 +386,13 @@ footer{
     }
 }
 @media screen and (max-width:650px){
-    
     img#logo{
         display: inline;
         height: 95px;
+    }
+    span{
+        width: 100vw;
+        position: relative;
     }
     h1{
         display: inline;
