@@ -20,9 +20,16 @@
             <a href="armacoes.html" class="mi">Armações</a> 
             <a href="acessorios.html" class="mi">Acessórios</a>
             <a href="Marcas.html" class="mi">Marcas</a>
+            <a href="#avaliacoes" class="mi">Avaliações</a>
         </nav>
     </header>
     <main>
+        <span class="material-symbols-outlined" id="car"  onclick="carrinho('modal')">shopping_cart</span>
+            <aside id="modal">
+                <div id="pcarrinho">
+                    O carrinho está vazio.
+                </div>
+            </aside>
         <section>
             <img src="oferta.jpg" id="oferta" alt="Banner de oferta">
         </section>
@@ -31,13 +38,16 @@
             <div id="cs">
                 <button id="al"><img src="arrowLeft.png" alt="flecha para voltar"></button>
                 <div class="ci">
-                    <img src="../imagens/back-phone.jpg" class="img" alt="Foto do seu produto">
+                    <a href="#">
+                        <img src="../imagens/back-phone.jpg" class="img" alt="Foto do seu produto"></a>
                 </div>
                 <div class="ci">
-                    <img src="seu produto.png" class="img on" alt="Foto do seu produto">
+                    <a href="#">
+                        <img src="seu produto.png" class="img on" alt="Foto do seu produto"></a>
                 </div>
                 <div class="ci">
-                    <img src="../imagens/icon-pc.png" class="img" alt="Foto do seu produto">
+                    <a href="#">
+                        <img src="../imagens/icon-pc.png" class="img" alt="Foto do seu produto"></a>
                 </div>
                 <button id="ar"><img src="arrowRigth.png" alt="flecha para proximo"></button>
             </div>
@@ -62,13 +72,16 @@
             <div id="cs2">
                 <button id="al2"><img src="arrowLeft.png" alt="flecha para voltar"></button>
                 <div class="ci2">
-                    <img src="../imagens/back-phone.jpg" class="img2" alt="Foto do seu produto">
+                    <a href="#">
+                        <img src="../imagens/back-phone.jpg" class="img" alt="Foto do seu produto"></a>
                 </div>
                 <div class="ci2">
-                    <img src="seu produto.png" class="img2 on2"  alt="Foto do seu produto">
+                    <a href="#">
+                        <img src="seu produto.png" class="img on" alt="Foto do seu produto"></a>
                 </div>
                 <div class="ci2">
-                    <img src="../imagens/icon-pc.png" class="img2" alt="Foto do seu produto">
+                    <a href="#">
+                        <img src="../imagens/icon-pc.png" class="img" alt="Foto do seu produto"></a>
                 </div>
                 <button id="ar2"><img src="arrowRigth.png" alt="flecha para proximo"></button>
             </div>
@@ -88,7 +101,7 @@
         </section>
     </main>
     <footer>Todos os diretitos reservados ao Desenvolvedor <strong>Pedro Henrique</strong> &copy;</footer>
-    <script src="teste.js">
-    </script>
+    <script src="carrossel.js"></script>
+    <script src="carrinho.js"></script>
 </body>
 </html>

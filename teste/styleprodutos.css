@@ -18,10 +18,26 @@
         display: inline;
         height: 60px;
         width: 60px;
-        margin: 3px 0px;
+        margin: 3px 0px 0px 7px;
         padding: 0px;
         border-radius: 5px;
-        }
+        margin-left: 8px;
+    }
+    #main, #x{
+        width: 30px;
+        top: 66%;
+        right: 1%;
+        position: absolute;
+    }
+    #x{
+        top: 47%;
+    }
+    #modal{
+        position: fixed;
+        top: 15%;
+        right:  8%;
+        padding: 2px;
+    }
     h1{
         display: inline;
         margin: 0px;
@@ -29,6 +45,22 @@
     }
     h2{
         margin: 2px;
+    }
+    img#oferta{
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        width: 70vw;
+        height: 350px;
+    }
+    img#rs{
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        width: 70vw;
+        height: 400px;
     }
     .cont{
         text-align: center;
@@ -61,11 +93,15 @@
     :hover.bac{
         background-color: rgb(151, 0, 0);
     }
-    #mvm1, #mvm2, #mvm3, #fvm1, #fvm2, #fvm3{
+    #mvm1, #mvm2, #mvm3, #fvm1, #fvm2, #fvm3, #ivm1, #ivm2, #ivm3, #uvm1, #uvm2, #uvm3{
         display: none;
         margin: auto;
     }
-    #ivm1, #ivm2, #ivm3, #uvm1, #uvm2, #uvm3{
+    #rt1, #rt2, #rt3, #rd1, #rd2, #rd3, #av1, #es1, #es2, #es3, #hs1, #hs2, #hs3{
+        display: none;
+        margin: auto;
+    }
+    #qd1, #qd2, #qd3, #ov1, #ov2, #ov3, #av2, #av3, #en1, #en2, #en3, #cp1, #cp2, #cp3{
         display: none;
         margin: auto;
     }
@@ -74,13 +110,24 @@
         margin: 5px;
         box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.26);
     }
-    #bmvm2, #bmvm3, #bfvm2, #bfvm3{
+    #brt1, #brd1, #bqd1, #bov1, #bav1, #bes1, #ben1, #bhs1, #bcp1{
+        cursor: pointer;
+        margin: 5px;
+        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.26);
+    }
+    #bmvm2, #bmvm3, #bfvm2, #bfvm3, #bivm2, #bivm3, #buvm2, #buvm3{
         display: none;
         margin: auto;
         cursor: pointer;
         box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.26);
     }
-    #bivm2, #bivm3, #buvm2, #buvm3{
+    #brt2, #brt3, #brd2, #brd3, #bes2, #bes3, #ben2, #ben3, #bhs2, #bhs3, #bcp2, #bcp3{
+        display: none;
+        margin: auto;
+        cursor: pointer;
+        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.26);
+    }
+    #bqd2, #bqd3, #bov2, #bov3, #bav2, #bav3{
         display: none;
         margin: auto;
         cursor: pointer;
@@ -125,19 +172,28 @@
         border-radius: 5px;
         box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.39);
     }
+    div.ci img{
+        width: 215px;
+    }
     img#logo{
         display: inline;
         height: 60px;
         width: 60px;
-        margin: 3px 0px;
+        margin: 3px 0px 0px 7px;
         padding: 0px;
         border-radius: 5px;
     }
-    span{
+    #main, #x{
         width: 100px;
         top: 60%;
         right: 0%;
         position: absolute;
+    }
+    #modal{
+        position: fixed;
+        top: 15%;
+        right:  8%;
+        padding: 2px;
     }
     h1{
         display: inline;
@@ -146,6 +202,21 @@
     }
     h2{
         margin: 2px;
+    }
+    img#oferta{
+        display: block;
+        margin: auto;
+        width: 70vw;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    img#rs{
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        width: 70vw;
+        height: 350px;
     }
     .cont{
         text-align: center;
@@ -186,25 +257,35 @@
             opacity: 1s;
         }
     }
-    #mvm1, #mvm2, #mvm3, #fvm1, #fvm2, #fvm3{
+    #mvm1, #mvm2, #mvm3, #fvm1, #fvm2, #fvm3, #ivm1, #ivm2, #ivm3, #uvm1, #uvm2, #uvm3{
         display: none;
         margin: auto;
     }
-    #ivm1, #ivm2, #ivm3, #uvm1, #uvm2, #uvm3{
+    #rt1, #rt2, #rt3, #rd1, #rd2, #rd3, #av1, #es1, #es2, #es3, #en1, #en2, #en3, #cp1, #cp2, #cp3, #hs1, #hs2, #hs3{
         display: none;
         margin: auto;
     }
-    #bmvm1, #bfvm1, #bivm1, #buvm1{
+    #qd1, #qd2, #qd3, #ov1, #ov2, #ov3, #av2, #av3, #en1, #en2, #en3, #cp1, #cp2, #cp3{
+        display: none;
+        margin: auto;
+    }
+    #brt1, #brd1, #bqd1, #bov1, #bav1, #bes1, #ben1, #bhs1, #bcp1{
         cursor: pointer;
         box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.26);
     }
-    #bmvm2, #bmvm3, #bfvm2, #bfvm3{
+    #bmvm2, #bmvm3, #bfvm2, #bfvm3, #bivm2, #bivm3, #buvm2, #buvm3{
         display: none;
         margin: auto;
         cursor: pointer;
         box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.26);
     }
-    #bivm2, #bivm3, #buvm2, #buvm3{
+    #brt2, #brt3, #brd2, #brd3, #bes2, #bes3, #ben2, #ben3, #bhs2, #bhs3, #bcp2, #bcp3{
+        display: none;
+        margin: auto;
+        cursor: pointer;
+        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.26);
+    }
+    #bqd2, #bqd3, #bov2, #bov3, #bav2, #bav3{
         display: none;
         margin: auto;
         cursor: pointer;
@@ -242,20 +323,72 @@
         border-radius: 50%;
     }
 }
+@media screen and (max-width:741px){
+    div.ci{
+        position: absolute;
+    }
+    .img{
+        opacity: 0;
+        width: 300px;
+    }
+    img#oferta{
+        display: block;
+        margin: auto;
+        width: 70vw;
+        height: 150px;
+        margin-top: 5px;
+    }
+    img#rs{
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        width: 70vw;
+        height: 300px;
+    }
+    .on{
+        opacity: 1;
+        width: 300px;
+    }
+    #ar{
+        position: absolute;
+        left: 70%;
+    }
+    #al{
+        position: absolute;
+        right: 70%;
+    }
+}
 /*Telas pequenas*/
 @media screen and (max-width:740px){
     img#logo{
         margin-left: 4px;
     }
-    span{
-        width: 100vw;
+    div.ci img{
+        width: 250px;
+    }
+    #main, #x{
+        width: 96vw;
         position: relative;
+    }
+    #modal{
+        position: fixed;
+        top: 19%;
+        right:  8%;
+        padding: 2px;
     }
     h1{
         margin-left: 6px;
     }
     h2{
         margin: 2px;
+    }
+    img#oferta{
+        display: block;
+        margin: auto;
+        margin-bottom: 5px;
+        height: 200px;
+        margin-top: 5px;
     }
     .cont{
         text-align: center;
@@ -288,6 +421,15 @@
     :hover.bac{
         background-color: rgb(151, 0, 0);
     }
+    div.ci{
+        position: absolute;
+    }
+    #ar{
+        left: 0%;
+    }
+    #al{
+        right: 0%;
+    }
     @keyframes desaparecer {
         from{
             opacity: 0.5;
@@ -299,24 +441,28 @@
     #vm1, #vm2, #vm3{
         display: none;
     }
-    #mvm1, #mvm2, #mvm3, #fvm1, #fvm2, #fvm3{
+    #mvm1, #mvm2, #mvm3, #fvm1, #fvm2, #fvm3, #ivm1, #ivm2, #ivm3, #uvm1, #uvm2, #uvm3{
         display: none;
         margin: auto;
     }
-    #ivm1, #ivm2, #ivm3, #uvm1, #uvm2, #uvm3{
+    #rt1, #rt2, #rt3, #rd1, #rd2, #rd3, #av1, #es1, #es2, #es3, #en1, #en2, #en3, #cp1, #cp2, #cp3, #hs1, #hs2, #hs3{
         display: none;
         margin: auto;
     }
-    #bmvm1, #bfvm1, #bivm1, #buvm1{
+    #qd1, #qd2, #qd3, #ov1, #ov2, #ov3, #av2, #av3, #en1, #en2, #en3, #cp1, #cp2, #cp3{
+        display: none;
+        margin: auto;
+    }
+    #brt1, #brd1, #bqd1, #bov1, #bav1, #bes1, #ben1, #bhs1, #bcp1{
         cursor: pointer;
         margin-bottom: 2px;
     }
-    #bmvm2, #bmvm3, #bfvm2, #bfvm3{
+    #brt2, #brt3, #brd2, #brd3, #bes2, #bes3, #ben2, #ben3, #bhs2, #bhs3, #bcp2, #bcp3{
         display: none;
         margin: auto;
         cursor: pointer;
     }
-    #bivm2, #bivm3, #buvm2, #buvm3{
+    #bqd2, #bqd3, #bov2, #bov3, #bav2, #bav3{
         display: none;
         margin: auto;
         cursor: pointer;

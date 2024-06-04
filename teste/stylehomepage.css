@@ -13,12 +13,21 @@ header{
     border-radius: 5px;
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.39);
 }
+nav{
+    background-color: rgba(0, 17, 252, 0);
+    display: none;
+}
+#main, #x{
+    width: 30px;
+    top: 22%;
+    right: 5%;
+    position: absolute;
+}
 #main{
     background-color: rgba(0, 17, 252, 0);
-    color: rgb(255, 123, 0);
-    display: block;
+    color: orange;
     text-align: center;
-    display: none;
+    display: block;
     cursor: pointer;
     border-radius: 5px;
 }
@@ -27,9 +36,7 @@ header{
     border-radius: 5px;
 }
 #x{
-    background-color: rgba(0, 17, 252, 0);
     color: orange;
-    display: block;
     text-align: center;
     display: none;
     cursor: pointer;
@@ -38,6 +45,29 @@ header{
 #x:hover{
     color: #1ff802;
     border-radius: 5px;
+}
+#car{
+    color: rgba(0, 17, 252, 0.644);
+    cursor: pointer;
+    position: fixed;
+    left:  92%;
+    background-color: rgba(0, 204, 255, 0.425);
+    border-radius: 50%;
+    padding: 5px;
+}
+#car:hover{
+    color: orange;
+    background-color: rgba(0, 17, 252, 0.644);
+}
+#modal{
+    display: none;
+    background-color: orange;
+    border-radius: 5px;
+    text-align: center;
+    position: fixed;
+    top: 30%;
+    right:  8%;
+    padding: 2px;
 }
 nav{
     background-color: rgba(0, 17, 252, 0);
@@ -52,6 +82,7 @@ img#logo{
     height: 150px;
     border-radius: 5px;
     margin-top: 5px;
+    margin-left: 10px;
 }
 h1{
     display: inline;
@@ -60,7 +91,7 @@ h1{
     margin-bottom: 5px;
     color: white;
 }
-a{
+a.mi{
     margin: 30px;
     text-decoration: none;
     color: white;
@@ -95,16 +126,15 @@ div#cs, div#cs2{
     justify-content: center;
     height: 300px;
 }
-div.ci, div.ci2{
+div.ci img, div.ci2 img{
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 350px;
+    width: 27vw;
+    margin: 3px;
 }
 .img, .img2{
-    position: absolute;
-    width: 100%;
     border-radius: 10px;
     opacity: 0.1;
     transition: opacity 0.2s;
@@ -143,7 +173,7 @@ h4{
     border-radius: 10px;
 }
 button#ar , button#al, button#ar2 , button#al2{
-    margin: 20px;
+    margin: 5px;
     width: 30px;
     height: 30px;
     border: none;
@@ -169,7 +199,7 @@ header{
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.39);
     position: sticky;
 }
-span{
+#main, #x{
     width: 100px;
     top: 78%;
     right: 0%;
@@ -203,6 +233,29 @@ span{
 #x:hover{
     color: #1ff802;
     border-radius: 5px;
+}
+#car{
+    color: rgba(0, 17, 252, 0.644);
+    cursor: pointer;
+    position: fixed;
+    left:  92%;
+    background-color: rgba(0, 204, 255, 0.425);
+    border-radius: 50%;
+    padding: 5px;
+}
+#car:hover{
+    color: orange;
+    background-color: rgba(0, 17, 252, 0.644);
+}
+#modal{
+    display: none;
+    background-color: orange;
+    border-radius: 5px;
+    text-align: center;
+    position: fixed;
+    top: 28%;
+    right:  8%;
+    padding: 2px;
 }
 .fade{
     animation-name: desaparecer;
@@ -238,7 +291,7 @@ h1{
     color: white;
     margin-left: 7px;
 }
-a{
+a.mi{
     margin: 15px;
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -272,16 +325,15 @@ div#cs, div#cs2{
     justify-content: center;
     height: 300px;
 }
-div.ci, div.ci2{
+div.ci img, div.ci2 img{
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 350px;
+    width: 215px;
+    margin: 2px;
 }
 .img, .img2{
-    position: absolute;
-    width: 100%;
     border-radius: 10px;
     opacity: 0.1;
     transition: opacity 0.2s;
@@ -320,7 +372,7 @@ h4{
     border-radius: 10px;
 }
 button#ar , button#al, button#ar2 , button#al2{
-    margin: 20px;
+    margin: 5px;
     width: 30px;
     height: 30px;
     border: none;
@@ -339,15 +391,21 @@ footer{
     border-radius: 5px;
 }
 }
-@media screen and (max-width:750px){
+@media screen and (max-width:751px){
     img#logo{
         display: inline;
         height: 120px;
     }
+    #modal{
+        position: fixed;
+        top: 19%;
+        right:  8%;
+        padding: 2px;
+    }
     h1{
         display: inline;
     }
-    a{
+    a.mi{
         margin: 10px;
         text-decoration: none;
     }
@@ -365,8 +423,6 @@ footer{
         width: 250px;
     }
     .img, .img2{
-        position: absolute;
-        width: 100%;
         border-radius: 10px;
         opacity: 0.1;
         transition: opacity 0.2s;
@@ -377,7 +433,7 @@ footer{
         height: 150px;
     }
     button#ar , button#al, button#ar2 , button#al2{
-        margin: 20px;
+        margin: 5px;
         width: 30px;
         height: 30px;
         border: none;
@@ -385,20 +441,26 @@ footer{
         cursor: pointer;
     }
 }
-@media screen and (max-width:650px){
+@media screen and (max-width:750px){
     img#logo{
         display: inline;
         height: 95px;
     }
-    span{
+    #main, #x{
         width: 100vw;
         position: relative;
+    }
+    #modal{
+        position: fixed;
+        top: 26%;
+        right:  8%;
+        padding: 2px;
     }
     h1{
         display: inline;
         margin-left: 2vw;
     }
-    a{
+    a.mi{
         margin: 0px;
         text-decoration: none;
     }
@@ -416,10 +478,11 @@ footer{
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 350px;
     }
     .img, .img2{
-        display: none;
+        position: absolute;
+        opacity: 0;
+        width: 300px;
     }
     .on, .on2{
         opacity: 1;
@@ -430,26 +493,27 @@ footer{
         height: 250px;
         width: 250px;
         align-items: center;
+        position: absolute;
     }
     button#ar, button#ar2 {
-        margin: 20px;
+        margin: 2px;
         width: 30px;
         height: 30px;
         border: none;
         background-color: transparent;
         cursor: pointer;
         position: relative;
-        transform: translate(160px, -10px);
+        left: 40%;
     }
-    button#al, button#al2{
-        margin: 20px;
+    button#al, button#al2 {
+        margin: 2px;
         width: 30px;
         height: 30px;
         border: none;
         background-color: transparent;
         cursor: pointer;
         position: relative;
-        transform: translate(-160px, -10px);
+        right: 40%;
     }
     button#ar img, button#al img{
         width: 100%;

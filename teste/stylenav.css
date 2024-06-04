@@ -16,7 +16,7 @@
         display: inline;
         height: 60px;
         width: 60px;
-        margin: 3px 0px;
+        margin: 3px 0px 0px 5px;
         padding: 0px;
         border-radius: 5px;
         }
@@ -29,10 +29,10 @@
         background-color: rgba(0, 17, 252, 0);
         display: none;
     }
-    span{
-        width: 100px;
-        top: 60%;
-        right: 0%;
+    #main, #x{
+        width: 30px;
+        top: 66%;
+        right: 1%;
         position: absolute;
     }
     #main{
@@ -53,11 +53,25 @@
         display: none;
         cursor: pointer;
         border-radius: 5px;
-        top: 30%;
+        top: 35%;
     }
     #x:hover{
         color: #1ff802;
         border-radius: 5px;
+    }
+    #modal{
+        position: fixed;
+        top: 15%;
+        right:  8%;
+        padding: 2px;
+    }
+    img#rs{
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        width: 70vw;
+        height: 400px;
     }
     .cont{
         text-align: center;
@@ -178,14 +192,20 @@
         padding: 0px;
         border-radius: 5px;
     }
-    span{
+    #main, #x{
         width: 100px;
         top: 60%;
         right: 0%;
         position: absolute;
     }
     #x{
-        top: 30%;
+        top: 35%;
+    }
+    #modal{
+        position: fixed;
+        top: 15%;
+        right:  8%;
+        padding: 2px;
     }
     h1{
         display: inline;
@@ -194,6 +214,14 @@
     }
     .cont{
         text-align: center;
+    }
+    img#rs{
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        width: 70vw;
+        height: 350px;
     }
     img{
         height: 320px;
@@ -281,9 +309,18 @@
     }
 }
 @media screen and (max-width:750px){
-    span{
-        width: 100vw;
+    img#logo{
+        margin-left: 5px;
+    }
+    #main, #x{
+        width: 96vw;
         position: relative;
+    }
+    #modal{
+        position: fixed;
+        top: 19%;
+        right:  8%;
+        padding: 2px;
     }
     h2{
         margin: 2px;
