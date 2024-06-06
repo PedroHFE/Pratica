@@ -19,7 +19,7 @@ function slideoff(){
 function slideon(){
     slide[imgon].classList.add("on")
 }
-function avancar(){
+function avante(){
     slideoff()
     if(imgon === slide.length -1){
         imgon = 0
@@ -37,7 +37,7 @@ function voltar(){
     }
     slideon()
 }
-next.addEventListener('click', avancar)
+next.addEventListener('click', avante)
 prev.addEventListener('click', voltar)
 
 // carrosel 2
