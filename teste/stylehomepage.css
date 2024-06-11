@@ -47,17 +47,13 @@ nav{
     border-radius: 5px;
 }
 #car{
-    color: rgba(0, 17, 252, 0.644);
+    color: #0011fca4;
     cursor: pointer;
     position: fixed;
     left:  92%;
-    background-color: rgba(0, 204, 255, 0.425);
+    background-color: #00ccff6c;
     border-radius: 50%;
     padding: 5px;
-}
-#car:hover{
-    color: orange;
-    background-color: rgba(0, 17, 252, 0.644);
 }
 #modal{
     display: none;

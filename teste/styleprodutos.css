@@ -89,9 +89,12 @@
         background-color: #d70101;
         color: white;
         cursor: pointer;
+        box-shadow: inset -2px -2px 1px #00000057;
     }
     :hover.bac{
-        background-color: rgb(151, 0, 0);
+        background-color: rgb(255, 0, 0);
+        color: rgb(255, 255, 255);
+        box-shadow: inset -2px -2px 1px #00000000;
     }
     #mvm1, #mvm2, #mvm3, #fvm1, #fvm2, #fvm3, #ivm1, #ivm2, #ivm3, #uvm1, #uvm2, #uvm3{
         display: none;

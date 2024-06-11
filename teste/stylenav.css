@@ -72,7 +72,7 @@
         box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.521);
     }
     #modal::-webkit-scrollbar{
-        background-color: rgba(0, 17, 252, 0);
+        background-color: transparent;
         width: 10px;
     }
     #modal::-webkit-scrollbar-thumb{
@@ -96,20 +96,22 @@
         border-radius: 3px;
         cursor: pointer;
         margin-left: 4px;
+        box-shadow: inset -2px -2px 1px #00000057;
     }
     .brm:hover{
         background-color: white;
         color: darkred;
+        box-shadow: inset -2px -2px 1px #00000000;
     }
     #bfc{
         padding: 0px 3px 0px 3px;
         background-color: #07f843;
         cursor: pointer;
         border-radius: 3px;
-        margin-right: 4px;
-        margin-bottom: 5px;
+        margin: 0px 4px 5px 3px;
         border:  transparent;
         font-size: 1em;
+        box-shadow: inset -2px -2px 1px #00000040;
     }
     #bfc:hover{
         background-color: #095309;
@@ -133,15 +135,18 @@
     }
     .bac{
         margin-top: 5px;
-        margin-left: 3px;
+        margin-left: 1px;
         padding: 1px;
         border-radius: 5px;
         background-color: #d70101;
         color: white;
         cursor: pointer;
+        box-shadow: inset -2px -2px 1px #00000057;
     }
     :hover.bac{
-        background-color: rgb(151, 0, 0);
+        background-color: rgb(255, 0, 0);
+        color: rgb(255, 255, 255);
+        box-shadow: inset -2px -2px 1px #00000000;
     }
     .fade{
         animation-name: desaparecer;
