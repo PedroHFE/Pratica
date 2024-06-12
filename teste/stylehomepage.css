@@ -57,13 +57,23 @@ nav{
 }
 #modal{
     display: none;
-    background-color: orange;
+    background-color: rgba(255, 166, 0, 0.900);
     border-radius: 5px;
     text-align: center;
     position: fixed;
     top: 30%;
     right:  8%;
     padding: 2px;
+}
+#bfc{
+    padding: 0px 3px 0px 3px;
+    background-color: #07f843;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 4px;
+    margin-bottom: 3px;
+    border: transparent;
+    box-shadow: inset -2px -2px 1px #00000057;
 }
 nav{
     background-color: rgba(0, 17, 252, 0);
@@ -252,6 +262,16 @@ header{
     top: 28%;
     right:  8%;
     padding: 2px;
+}
+#bfc{
+    padding: 0px 3px 0px 3px;
+    background-color: #07f843;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 4px;
+    margin-bottom: 3px;
+    border: transparent;
+    box-shadow: inset -2px -2px 1px #00000057;
 }
 .fade{
     animation-name: desaparecer;

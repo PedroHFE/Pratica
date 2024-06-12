@@ -60,10 +60,18 @@
         border-radius: 5px;
     }
     #car{
+        color: #0011fca4;
+        cursor: pointer;
+        position: fixed;
+        left:  92%;
+        background-color: #00ccff6c;
+        border-radius: 50%;
+        padding: 5px;
         box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.521);
     }
     #modal{
         position: fixed;
+        background-color: rgba(255, 166, 0, 0.900);
         top: 18%;
         right:  8%;
         padding: 2px;
@@ -80,8 +88,8 @@
         border-radius: 10px;
     }
     #item img{
-        height: 10vw;
-        width: 10vw;
+        height: 15vw;
+        width: 15vw;
         border-radius: 50%;
     }
     #qn{
@@ -243,7 +251,7 @@
         display: inline;
         height: 60px;
         width: 60px;
-        margin: 3px 0px;
+        margin: 3px 0px 0px 3px;
         padding: 0px;
         border-radius: 5px;
     }
@@ -257,27 +265,57 @@
         top: 35%;
     }
     #modal{
+        background-color: rgba(255, 166, 0, 0.900);
         position: fixed;
         top: 15%;
         right:  8%;
         padding: 2px;
+        max-height: 40vh;
+        overflow-y: scroll;
+        box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.521);
+    }
+    #modal::-webkit-scrollbar{
+        background-color: transparent;
+        width: 10px;
+    }
+    #modal::-webkit-scrollbar-thumb{
+        background-color: #3e81fb;
+        border-radius: 10px;
+    }
+    #car{
+        box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.521);
     }
     #item img{
-        height: 10vw;
-        width: 10vw;
+        margin: 2px;
+        height: 15vw;
+        width: 15vw;
+        border-radius: 50%;
+    }
+    .np{
+        margin: 2px;
+    }
+    #preço{
+        margin: 2px;
     }
     #qn{
-        width: 45px;
+        width: 25px;
         border-radius: 5px;
         margin-left: 4px;
+        margin: 2px;
     }
-    #brm{
+    .brm{
         padding: 0px 3px 0px 3px;
         background-color: red;
         color: white;
         border-radius: 3px;
         cursor: pointer;
         margin-left: 4px;
+        box-shadow: inset -2px -2px 1px #00000057;
+    }
+    .brm:hover{
+        background-color: white;
+        color: darkred;
+        box-shadow: inset -2px -2px 1px #00000000;
     }
     #bfc{
         padding: 0px 3px 0px 3px;
@@ -285,6 +323,14 @@
         cursor: pointer;
         border-radius: 3px;
         margin-left: 4px;
+        margin-bottom: 3px;
+        border: transparent;
+        box-shadow: inset -2px -2px 1px #00000057;
+    }
+    #bfc:hover{
+        background-color: #095309;
+        color: rgb(85, 238, 98);
+        box-shadow: inset -2px -2px 1px #00000000;
     }
     h1{
         display: inline;
@@ -318,7 +364,7 @@
         border-radius: 2px;
         display: inline-block;
         text-align: center;
-        height: 400px;
+        height: 420px;
         width: 330px;
         margin: 10px;
         padding: 5px;
@@ -346,16 +392,19 @@
     }
     #brb1, #bdg1, #bpr1, #dr1, #bah1, #boc1, #bgc1, #dr1, #pd1, #bvg1, #bmm1, #btf1{
         cursor: pointer;
+        margin: 2px;
     }
     #brb2, #brb3, #bdg2, #bdg3, #bpr2, #bpr3, #bdr2, #bdr3, #bah2, #bah3, #bpd2, #bpd3{
         display: none;
         margin: auto;
         cursor: pointer;
+        margin: 2px;
     }
     #boc2, #boc3, #bgc2, #bgc3, #bcr2, #bcr3, #bvg2, #bvg3, #bmm2, #bmm3, #btf2, #btf3{
         display: none;
         margin: auto;
         cursor: pointer;
+        margin: 2px;
     }
     #vm2, #vm3{
         display: none;
@@ -413,11 +462,11 @@
         margin: 4px;
     }
     p.produtos{
-        height: 380px;
+        height: 400px;
         width: 320px;
         box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.26);
     }
-    .bac{
+    #bac{
         margin-top: 5px;
         margin-left: 3px;
         padding: 1px;

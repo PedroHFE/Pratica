@@ -23,13 +23,20 @@
             <a href="#avaliacoes" class="mi">Avaliações</a>
         </nav>
     </header>
+    <span class="material-symbols-outlined" id="car"  onclick="carrinho('modal')">shopping_cart</span>
+        <aside id="modal">
+                <table id="pcarrinho">
+                    <tr class="cartp">
+                        <th id="item"></th>
+                        <td><span class="np"></td>
+                        <td id="price"></td>
+                        <td id="quant"></td>
+                    </tr>
+                </table>
+                <span><button type="button" id="bfc"></button></span>
+                <span><strong>Total</strong> | R$</span><span id="tl">0,00</span>
+        </aside>
     <main>
-        <span class="material-symbols-outlined" id="car"  onclick="carrinho('modal')">shopping_cart</span>
-            <aside id="modal">
-                <div id="pcarrinho">
-                    O carrinho está vazio.
-                </div>
-            </aside>
         <section>
             <img src="oferta.jpg" id="oferta" alt="Banner de oferta">
         </section>

@@ -25,6 +25,19 @@
         </nav>
     </header>
     <main>
+        <span class="material-symbols-outlined" id="car"  onclick="carrinho('modal')">shopping_cart</span>
+        <aside id="modal">
+                <table id="pcarrinho">
+                    <tr class="cartp">
+                        <th id="item"></th>
+                        <td><span class="np"></td>
+                        <td id="price"></td>
+                        <td id="quant"></td>
+                    </tr>
+                </table>
+                <span><button type="button" id="bfc"></button></span>
+                <span><strong>Total</strong> | R$</span><span id="tl">0,00</span>
+        </aside>
         <section>
             <span class="material-symbols-outlined" id="car" onclick="carrinho('modal')">shopping_cart</span>
             <aside id="modal">
@@ -40,65 +53,76 @@
             <div class="cont">
                 <div>
                     <p><a href="#">
-                        <img src="seu produto.png" class="estojos" alt="Foto do seu produto"></a> <br>
-                        Descrição do produto mais e outras informações caso precisar <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                        <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="estojos" alt="Foto do seu produto"></a> <br>
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                        <span class="np"><strong>Nome do Produto</strong></span><br>
                         Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="estojos" alt="Foto do seu produto"></a> <br>
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                        <span class="np"><strong>Nome do Produto</strong></span><br>
                         Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="estojos" alt="Foto do seu produto"></a> <br>
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                        <span class="np"><strong>Nome do Produto</strong></span><br>
                         Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="estojos" alt="Foto do seu produto"></a> <br>
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                        <span class="np"><strong>Nome do Produto</strong></span><br>
                         Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="estojos" alt="Foto do seu produto"></a> <br>
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                        <span class="np"><strong>Nome do Produto</strong></span><br>
                         Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                 </div>
                 <button id="bes1" onclick="estojos1('es1')">Ver mais</button>
                 <div id="es1">
                     <p><a href="#">
-                        <img src="seu produto.png" class="estojos" alt="Foto do seu produto"></a> <br>
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                        <span class="np"><strong>Nome do Produto</strong></span><br>
                         Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="estojos" alt="Foto do seu produto"></a> <br>
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                        <span class="np"><strong>Nome do Produto</strong></span><br>
                         Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="estojos" alt="Foto do seu produto"></a> <br>
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                        <span class="np"><strong>Nome do Produto</strong></span><br>
                         Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="estojos" alt="Foto do seu produto"></a> <br>
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                        <span class="np"><strong>Nome do Produto</strong></span><br>
                         Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="estojos" alt="Foto do seu produto"></a> <br>
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                        <span class="np"><strong>Nome do Produto</strong></span><br>
                         Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="estojos" alt="Foto do seu produto"></a> <br>
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
                         Descrição do produto mais e outras informações <br>
                     R$ XXX,XX <button type="button" class="bac">
                         Adicionar ao carrinho</button></p>
@@ -106,37 +130,43 @@
                 <button id="bes2" onclick="estojos2('es2')">Ver mais</button>
                 <div id="es2">
                     <p><a href="#">
-                        <img src="seu produto.png" class="estojos" alt="Foto do seu produto"></a> <br>
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                        <span class="np"><strong>Nome do Produto</strong></span><br>
                         Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="estojos" alt="Foto do seu produto"></a> <br>
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                        <span class="np"><strong>Nome do Produto</strong></span><br>
                         Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="estojos" alt="Foto do seu produto"></a> <br>
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                        <span class="np"><strong>Nome do Produto</strong></span><br>
                         Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                 </div>
                 <button id="bes3" onclick="estojos3('es3')">Ver mais</button>
                 <div id="es3">
                     <p><a href="#">
-                        <img src="seu produto.png" class="estojos" alt="Foto do seu produto"></a> <br>
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                        <span class="np"><strong>Nome do Produto</strong></span><br>
                         Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="estojos" alt="Foto do seu produto"></a> <br>
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                        <span class="np"><strong>Nome do Produto</strong></span><br>
                         Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="estojos" alt="Foto do seu produto"></a> <br>
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                        <span class="np"><strong>Nome do Produto</strong></span><br>
                         Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                 </div>
             </div>
@@ -146,83 +176,95 @@
             <div class="cont">
                 <div>
                     <p><a href="#">
-                        <img src="seu produto.png" class="envel" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="envel" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="envel" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="envel" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="envel" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="envel" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                 </div>
                 <button id="ben1" onclick="envelopes1('en1')">Ver mais</button>
                 <div id="en1">
                     <p><a href="#">
-                        <img src="seu produto.png" class="envel" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="envel" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="envel" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="envel" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="envel" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="envel" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                 </div>
                 <button id="ben2" onclick="envelopes2('en2')">Ver mais</button>
                 <div id="en2">
                     <p><a href="#">
-                        <img src="seu produto.png" class="envel" alt="Foto do seu produto"></a> <br>
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
                         Descrição do produto mais e outras informações <br>
                             R$ XXX,XX <button type="button" class="bac">
                                 Adicionar ao carrinho</button></p>
                         <p><a href="#">
-                            <img src="seu produto.png" class="envel" alt="Foto do seu produto"></a> <br>
+                            <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
                         Descrição do produto mais e outras informações <br>
                             R$ XXX,XX <button type="button" class="bac">
                                 Adicionar ao carrinho</button></p>
                         <p><a href="#">
-                            <img src="seu produto.png" class="envel" alt="Foto do seu produto"></a> <br>
+                            <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
                         Descrição do produto mais e outras informações <br>
                             R$ XXX,XX <button type="button" class="bac">
                                 Adicionar ao carrinho</button></p>
@@ -230,17 +272,17 @@
                 <button id="ben3" onclick="envelopes3('en3')">Ver mais</button>
                 <div id="en3">
                     <p><a href="#">
-                        <img src="seu produto.png" class="envel" alt="Foto do seu produto"></a> <br>
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
                         Descrição do produto mais e outras informações <br>
                             R$ XXX,XX <button type="button" class="bac">
                                 Adicionar ao carrinho</button></p>
                         <p><a href="#">
-                            <img src="seu produto.png" class="envel" alt="Foto do seu produto"></a> <br>
+                            <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
                         Descrição do produto mais e outras informações <br>
                             R$ XXX,XX <button type="button" class="bac">
                                 Adicionar ao carrinho</button></p>
                         <p><a href="#">
-                            <img src="seu produto.png" class="envel" alt="Foto do seu produto"></a> <br>
+                            <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
                         Descrição do produto mais e outras informações <br>
                             R$ XXX,XX <button type="button" class="bac">
                                 Adicionar ao carrinho</button></p>
@@ -252,83 +294,95 @@
             <div class="cont">
                 <div>
                     <p><a href="#">
-                        <img src="seu produto.png" class="hastes" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="hastes" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="hastes" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="hastes" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="hastes" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="hastes" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                 </div>
                 <button id="bhs1" onclick="hastes1('hs1')">Ver mais</button>
                 <div id="hs1">
                     <p><a href="#">
-                        <img src="seu produto.png" class="hastes" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="hastes" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="hastes" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="hastes" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="hastes" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="hastes" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                 </div>
                 <button id="bhs2" onclick="hastes2('hs2')">Ver mais</button>
                 <div id="hs2">
                     <p><a href="#">
-                        <img src="seu produto.png" class="hastes" alt="Foto do seu produto"></a> <br>
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
                         Descrição do produto mais e outras informações <br>
                             R$ XXX,XX <button type="button" class="bac">
                                 Adicionar ao carrinho</button></p>
                         <p><a href="#">
-                            <img src="seu produto.png" class="hastes" alt="Foto do seu produto"></a> <br>
+                            <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
                         Descrição do produto mais e outras informações <br>
                             R$ XXX,XX <button type="button" class="bac">
                                 Adicionar ao carrinho</button></p>
                         <p><a href="#">
-                            <img src="seu produto.png" class="hastes" alt="Foto do seu produto"></a> <br>
+                            <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
                         Descrição do produto mais e outras informações <br>
                             R$ XXX,XX <button type="button" class="bac">
                                 Adicionar ao carrinho</button></p>
@@ -336,17 +390,17 @@
                 <button id="bhs3" onclick="hastes3('hs3')">Ver mais</button>
                 <div id="hs3">
                     <p><a href="#">
-                        <img src="seu produto.png" class="hastes" alt="Foto do seu produto"></a> <br>
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
                         Descrição do produto mais e outras informações <br>
                             R$ XXX,XX <button type="button" class="bac">
                                 Adicionar ao carrinho</button></p>
                         <p><a href="#">
-                            <img src="seu produto.png" class="hastes" alt="Foto do seu produto"></a> <br>
+                            <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
                         Descrição do produto mais e outras informações <br>
                             R$ XXX,XX <button type="button" class="bac">
                                 Adicionar ao carrinho</button></p>
                         <p><a href="#">
-                            <img src="seu produto.png" class="hastes" alt="Foto do seu produto"></a> <br>
+                            <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
                         Descrição do produto mais e outras informações <br>
                             R$ XXX,XX <button type="button" class="bac">
                                 Adicionar ao carrinho</button></p>
@@ -358,83 +412,95 @@
             <div class="cont">
                 <div>
                     <p><a href="#">
-                        <img src="seu produto.png" class="cp" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="cp" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="cp" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="cp" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="cp" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="cp" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                 </div>
                 <button id="bcp1" onclick="cordas1('cp1')">Ver mais</button>
                 <div id="cp1">
                     <p><a href="#">
-                        <img src="seu produto.png" class="cp" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="cp" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="cp" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="cp" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="cp" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                     <p><a href="#">
-                        <img src="seu produto.png" class="cp" alt="Foto do seu produto"></a> <br>
-                    Descrição do produto mais e outras informações <br>
-                        R$ XXX,XX <button type="button" class="bac">
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
+                    <span class="np"><strong>Nome do Produto</strong></span><br>
+                        Descrição do produto mais e outras informações <br>
+                        <span class="preco">R$ XXX,XX</span> <button type="button" class="bac">
                             Adicionar ao carrinho</button></p>
                 </div>
                 <button id="bcp2" onclick="cordas2('cp2')">Ver mais</button>
                 <div id="cp2">
                     <p><a href="#">
-                        <img src="seu produto.png" class="cp" alt="Foto do seu produto"></a> <br>
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
                         Descrição do produto mais e outras informações <br>
                             R$ XXX,XX <button type="button" class="bac">
                                 Adicionar ao carrinho</button></p>
                         <p><a href="#">
-                            <img src="seu produto.png" class="cp" alt="Foto do seu produto"></a> <br>
+                            <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
                         Descrição do produto mais e outras informações <br>
                             R$ XXX,XX <button type="button" class="bac">
                                 Adicionar ao carrinho</button></p>
                         <p><a href="#">
-                            <img src="seu produto.png" class="cp" alt="Foto do seu produto"></a> <br>
+                            <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
                         Descrição do produto mais e outras informações <br>
                             R$ XXX,XX <button type="button" class="bac">
                                 Adicionar ao carrinho</button></p>
@@ -442,17 +508,17 @@
                 <button id="bcp3" onclick="cordas3('cp3')">Ver mais</button>
                 <div id="cp3">
                     <p><a href="#">
-                        <img src="seu produto.png" class="cp" alt="Foto do seu produto"></a> <br>
+                        <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
                         Descrição do produto mais e outras informações <br>
                             R$ XXX,XX <button type="button" class="bac">
                                 Adicionar ao carrinho</button></p>
                         <p><a href="#">
-                            <img src="seu produto.png" class="cp" alt="Foto do seu produto"></a> <br>
+                            <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
                         Descrição do produto mais e outras informações <br>
                             R$ XXX,XX <button type="button" class="bac">
                                 Adicionar ao carrinho</button></p>
                         <p><a href="#">
-                            <img src="seu produto.png" class="cp" alt="Foto do seu produto"></a> <br>
+                            <img src="seu produto.png" class="sp" alt="Foto do seu produto"></a> <br>
                         Descrição do produto mais e outras informações <br>
                             R$ XXX,XX <button type="button" class="bac">
                                 Adicionar ao carrinho</button></p>

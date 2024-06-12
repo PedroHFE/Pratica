@@ -58,7 +58,7 @@ function adc(event){//Adicionar e remover do carrinho produtos
     price = Number(precop.value)
     pt = Number(ptotal.value)
     var total = qn*price
-    ptotal.innerText = `${total}`
+    ptotal.innerHTML = `${total}`
     console.log(typeof(qn))
     console.log(typeof(price))
     console.log(typeof(pt))
