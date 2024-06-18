@@ -12,11 +12,11 @@
 </head>
 <body id="topo">
     <header>
-        <a href="indextst.html" target="_self" rel="prev"><img src="sua logo aqui.jpg" id="logo" alt="Logo do cliente"></a>
-        <h1>Nome da sua marca</h1>
+        <a href="indextst.html" target="_self" rel="prev"><img src="otica 1.1.png" id="logo" alt="Logo do cliente"></a>
+        <h1>Ótica Vision <sup>pro</sup></h1>
             <span class="material-symbols-outlined fade" id="main" onclick="clickMain()">menu</span>
             <span class="material-symbols-outlined fade" id="x" onclick="clickMain()">close</span>
-        <nav id="itens">
+        <nav onmouseout="clickMain()" id="itens">
             <a href="indextst.html" class="mi" target="_self" rel="prev">Home</a> 
             <a href="#masculino" class="mi" target="_parent" rel="internal">Masculino</a> 
             <a href="#feminino" class="mi" target="_parent" rel="internal">Feminino</a> 
@@ -26,7 +26,7 @@
     </header>
     <main>
         <span class="material-symbols-outlined" id="car"  onclick="carrinho('modal')">shopping_cart</span>
-        <aside id="modal">
+        <aside onmouseout="carrinho()" id="modal">
                 <table id="pcarrinho">
                     <tr class="cartp">
                         <th id="item"></th>

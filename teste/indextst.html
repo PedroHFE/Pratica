@@ -10,11 +10,11 @@
 </head>
 <body>
     <header>
-        <a href="indextst.html" target="_self"><img src="sua logo aqui.jpg" id="logo" alt="Logo do cliente"></a>
-        <h1>Nome da sua marca</h1>
+        <a href="indextst.html" target="_self"><img src="otica 1.1.png" id="logo" alt="Logo do cliente"></a>
+        <h1>Ótica Vision <sup>pro</sup></h1>
             <span class="material-symbols-outlined fade" id="main" onclick="clickMain()">menu</span>
             <span class="material-symbols-outlined fade" id="x" onclick="clickMain()">close</span>
-        <nav id="itens">
+        <nav onmouseout="clickMain()" id="itens">
             <a href="ograu.html" class="mi">Óculos de Grau</a> 
             <a href="osol.html" class="mi">Óculos de Sol</a> 
             <a href="armacoes.html" class="mi">Armações</a> 
@@ -24,7 +24,7 @@
         </nav>
     </header>
     <span class="material-symbols-outlined" id="car"  onclick="carrinho('modal')">shopping_cart</span>
-        <aside id="modal">
+        <aside onmouseout="carrinho()" id="modal">
                 <table id="pcarrinho">
                     <tr class="cartp">
                         <th id="item"></th>

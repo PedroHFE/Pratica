@@ -17,7 +17,7 @@
     img#logo{
         display: inline;
         height: 60px;
-        width: 60px;
+        width: 110px;
         margin: 3px 0px 0px 7px;
         padding: 0px;
         border-radius: 5px;
@@ -89,8 +89,17 @@
     }
     h1{
         display: inline;
-        margin: 0px;
+        margin-left: 20vw;
+        font-family: serif;
+        font-size: 2.5em;
+        margin-bottom: 5px;
+        color: rgb(253, 171, 19);
+    }
+    sup{
+        font-family: 'Material Symbols Outlined';
+        font-size: 0.4em;
         color: white;
+        font-style: italic;
     }
     h2{
         margin: 2px;
@@ -230,7 +239,7 @@
     img#logo{
         display: inline;
         height: 60px;
-        width: 60px;
+        width: 110px;
         margin: 3px 0px 0px 7px;
         padding: 0px;
         border-radius: 5px;
@@ -311,8 +320,17 @@
     }
     h1{
         display: inline;
-        margin: 0px;
+        margin-left: 14vw;
         color: white;
+        font-family: serif;
+        font-size: 2.5em;
+        color: rgb(253, 171, 19);
+    }
+    sup{
+        font-family: 'Material Symbols Outlined';
+        font-size: 0.4em;
+        color: white;
+        font-style: italic;
     }
     h2{
         margin: 2px;
@@ -445,6 +463,9 @@
     div.ci{
         position: absolute;
     }
+    h1{
+        margin-left: 10vw;
+    }
     .img{
         opacity: 0;
         width: 300px;
@@ -478,9 +499,10 @@
     }
 }
 /*Telas pequenas*/
-@media screen and (max-width:740px){
+@media screen and (max-width:620px){
     img#logo{
-        margin-left: 4px;
+        margin-left: 3px;
+        height: 40px;
     }
     div.ci img{
         width: 250px;
@@ -496,7 +518,8 @@
         padding: 2px;
     }
     h1{
-        margin-left: 6px;
+        font-size: 2em;
+        margin-left: 9vw;
     }
     h2{
         margin: 2px;

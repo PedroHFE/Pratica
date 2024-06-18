@@ -13,14 +13,28 @@ header{
     border-radius: 5px;
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.39);
 }
+sup{
+    font-family: 'Material Symbols Outlined';
+    font-size: 0.4em;
+    color: white;
+    font-style: italic;
+}
+h1{
+    display: inline;
+    margin-left: 20vw;
+    font-family: serif;
+    font-size: 2.5em;
+    margin-bottom: 5px;
+    color: rgb(253, 171, 19);
+}
 nav{
     background-color: rgba(0, 17, 252, 0);
     display: none;
 }
 #main, #x{
     width: 30px;
-    top: 22%;
-    right: 5%;
+    top: 8%;
+    right: 6%;
     position: absolute;
 }
 #main{
@@ -54,6 +68,7 @@ nav{
     background-color: #00ccff6c;
     border-radius: 50%;
     padding: 5px;
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.521);
 }
 #modal{
     display: none;
@@ -61,9 +76,18 @@ nav{
     border-radius: 5px;
     text-align: center;
     position: fixed;
-    top: 30%;
+    top: 15%;
     right:  8%;
     padding: 2px;
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.521);
+}
+#modal::-webkit-scrollbar{
+    background-color: transparent;
+    width: 10px;
+}
+#modal::-webkit-scrollbar-thumb{
+    background-color: #3e81fb;
+    border-radius: 10px;
 }
 #bfc{
     padding: 0px 3px 0px 3px;
@@ -85,17 +109,10 @@ nav{
 }
 img#logo{
     display: inline;
-    height: 150px;
+    height: 60px;
     border-radius: 5px;
     margin-top: 5px;
     margin-left: 10px;
-}
-h1{
-    display: inline;
-    margin-left: 20vw;
-    font-size: 2em;
-    margin-bottom: 5px;
-    color: white;
 }
 a.mi{
     margin: 30px;
@@ -103,7 +120,7 @@ a.mi{
     color: white;
 }
 .mi:hover{
-    background-color: rgb(2, 20, 1);
+    background-color: rgb(0, 30, 112);
     color: orange;
     padding: 8px;
     border-radius: 5px;
@@ -112,7 +129,7 @@ a.mi{
 }
 h2{
     text-align: center;
-    background-image: linear-gradient(50deg, rgba(0, 17, 252, 0.596), rgba(255, 136, 0, 0.596));
+    background-image: linear-gradient(50deg, rgba(0, 17, 252, 0.664), rgba(255, 136, 0, 0.596));
     color: rgb(253, 249, 249);
     border-radius: 5px;
 }
@@ -207,7 +224,7 @@ header{
 }
 #main, #x{
     width: 100px;
-    top: 78%;
+    top: 65%;
     right: 0%;
     position: absolute;
 }
@@ -248,6 +265,7 @@ header{
     background-color: rgba(0, 204, 255, 0.425);
     border-radius: 50%;
     padding: 5px;
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.521);
 }
 #car:hover{
     color: orange;
@@ -259,9 +277,10 @@ header{
     border-radius: 5px;
     text-align: center;
     position: fixed;
-    top: 28%;
+    top: 16%;
     right:  8%;
     padding: 2px;
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.521);
 }
 #bfc{
     padding: 0px 3px 0px 3px;
@@ -297,15 +316,24 @@ nav{
 }
 img#logo{
     display: inline;
-    height: 130px;
+    height: 60px;
     margin: 3px 0px 0px 5px;
     border-radius: 5px;
 }
 h1{
     display: inline;
-    margin-left: 10vw;
+    margin-left: 14vw;
     color: white;
-    margin-left: 7px;
+    font-family: serif;
+    font-size: 2.5em;
+    margin-bottom: 3px;
+    color: rgb(253, 171, 19);
+}
+sup{
+    font-family: 'Material Symbols Outlined';
+    font-size: 0.4em;
+    color: white;
+    font-style: italic;
 }
 a.mi{
     margin: 15px;
@@ -313,7 +341,7 @@ a.mi{
     color: rgb(255, 255, 255);
 }
 .mi:hover{
-    background-color: rgba(0, 0, 0, 0.836);
+    background-color: rgb(0, 30, 112);
     color: orange;
     padding: 5px;
     font-size: 1.1em;
@@ -410,16 +438,16 @@ footer{
 @media screen and (max-width:751px){
     img#logo{
         display: inline;
-        height: 120px;
+        height: 60px;
     }
     #modal{
         position: fixed;
-        top: 19%;
+        top: 16%;
         right:  8%;
         padding: 2px;
     }
     h1{
-        display: inline;
+        margin-left: 10vw;
     }
     a.mi{
         margin: 10px;
@@ -457,24 +485,26 @@ footer{
         cursor: pointer;
     }
 }
-@media screen and (max-width:750px){
+@media screen and (max-width:620px){
     img#logo{
-        display: inline;
-        height: 95px;
+        display: inline-block;
+        height: 40px;
     }
     #main, #x{
-        width: 100vw;
+        width: 94vw;
         position: relative;
     }
     #modal{
         position: fixed;
-        top: 26%;
+        top: 20%;
         right:  8%;
         padding: 2px;
+        box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.521);
     }
     h1{
-        display: inline;
-        margin-left: 2vw;
+        display: inline-block;
+        font-size: 2em;
+        margin-left: 5vw;
     }
     a.mi{
         margin: 0px;

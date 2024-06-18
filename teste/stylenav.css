@@ -15,15 +15,23 @@
     img#logo{
         display: inline;
         height: 60px;
-        width: 60px;
+        width: 110px;
         margin: 3px 0px 0px 5px;
         padding: 0px;
         border-radius: 5px;
-        }
+    }
+    sup{
+        font-family: 'Material Symbols Outlined';
+        font-size: 0.4em;
+        color: white;
+    }
     h1{
         display: inline;
-        margin: 0px;
-        color: white;
+        margin-left: 25vw;
+        font-family: serif;
+        font-size: 2.5em;
+        margin-bottom: 5px;
+        color: rgb(253, 171, 19);
     }
     nav{
         background-color: rgba(0, 17, 252, 0);
@@ -250,7 +258,7 @@
     img#logo{
         display: inline;
         height: 60px;
-        width: 60px;
+        width: 110px;
         margin: 3px 0px 0px 3px;
         padding: 0px;
         border-radius: 5px;
@@ -334,7 +342,16 @@
     }
     h1{
         display: inline;
-        margin: 0px;
+        margin-left: 16vw;
+        color: white;
+        font-family: serif;
+        font-size: 2.5em;
+        margin-bottom: 3px;
+        color: rgb(253, 171, 19);
+    }
+    sup{
+        font-family: 'Material Symbols Outlined';
+        font-size: 0.4em;
         color: white;
     }
     .cont{
@@ -438,11 +455,16 @@
 }
 @media screen and (max-width:750px){
     img#logo{
-        margin-left: 5px;
+        margin-left: 3px;
+        height: 40px;
     }
     #main, #x{
         width: 96vw;
         position: relative;
+    }
+    h1{
+        font-size: 2em;
+        margin-left: 9vw;
     }
     #modal{
         position: fixed;
