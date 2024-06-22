@@ -36,14 +36,9 @@
         <span class="material-symbols-outlined" id="car"  onclick="carrinho('modal')">shopping_cart</span>
         <aside onmouseout="carrinho()" id="modal">
                 <table id="pcarrinho">
-                    <tr class="cartp">
-                        <th id="item"></th>
-                        <td><span></td>
-                        <td id="price"></td>
-                        <td id="quant"></td>
-                    </tr>
+                    <tr class="cart"></tr>
                 </table>
-                <span><button type="button" id="bfc"></button></span>
+                <span><button type="button" id="bfc" onclick="finalizarc()"></button></span>
                 <span><strong>Total</strong> | R$ </span><span id="tl">0,00</span>
         </aside>
         <section>
